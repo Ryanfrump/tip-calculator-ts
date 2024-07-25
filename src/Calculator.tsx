@@ -40,7 +40,7 @@ const Calculator: React.FC = () => {
           <input
             type="number"
             id="tip-amount"
-            placeholder="Enter your tip amount"
+            placeholder="Enter your tip percent amount"
             value={tipAmount !== undefined ? tipAmount : ""}
             onChange={(event: React.ChangeEvent<HTMLInputElement>): void =>
               setTipAmount(event.target.value)
